@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+:root {
+  /* Primary Colors */
+  --very-dark-magenta: #502050;
+  --soft-pink: #ee68a4;
+
+  /* Neutral */
+  --dark-grayish-magenta: #937b92;
+  --opa-grayish-magenta: rgba(147, 123, 146, 0.25);
+  --light-grayish-magenta: #f7f2f7;
+  --white: #ffffff;
+}
+
+html {
+  font-size: 15px;
+}
+
+*,
+::after,
+::before {
+  font-family: "Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\ \f005\ \f005\ \f005\ \f005";
+  display: block;
+  color: darkorange;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: var(--light-grayish-magenta);
+  margin-top: 82px;
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 375px;
+  padding: 0 30px;
+}
+
+h1 {
+  color: var(--very-dark-magenta);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+p {
+  color: var(--dark-grayish-magenta);
+  font-weight: 500;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 47px;
+}
+
+li {
+  background-color: var(--opa-grayish-magenta);
+  padding: 21px;
+  margin-bottom: 17px;
+  border-radius: 8px;
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  text-align: center;
+  max-width: 350px;
+}
+
+.cards {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.card {
+  padding: 40px 33px;
+  background-color: var(--very-dark-magenta);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 350px;
+  position: relative;
+}
+
+.info-text {
+  color: var(--dark-grayish-magenta);
+  font-weight: 500;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h4 {
+  color: var(--white);
+  font-weight: 500;
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-bottom: 33px;
+  color: var(--soft-pink);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-left: 60px;
+}
+
+img {
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 38px;
+}
